@@ -34,6 +34,43 @@
     width: 50%;
 }
 
+.devstack {
+    color: black;
+    padding: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.devstack:hover {
+    color: #fff;
+    background-color: #001220;
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    box-shadow: none;
+}
+
+.who-is-asif {
+    background-size: 100% 100%;
+    height: 75vh;
+    color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+pre {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
 @media(max-width:750px) {
     .introduction div h1 {
         font-size: 75px;
@@ -49,5 +86,13 @@
         border: none;
         width: auto;
         padding: 5px 15px;
+    }
+    .who-is-asif {
+        background-size: 180% 100%;
+        height: 100vh;
+        background-position: center;
+    }
+    pre {
+        font-size: 16px;
     }
 }
