@@ -6,6 +6,7 @@ import Courses from "./pages/Courses";
 import "./stylesheets/Home.css";
 import "./stylesheets/header-footer.css";
 import "./stylesheets/Carousel.css";
+import "./stylesheets/Projects-courses.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (

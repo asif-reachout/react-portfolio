@@ -46,6 +46,7 @@
 
 .devstack:hover {
     color: #fff;
+    padding: 10px;
     background-color: #001220;
     transform: scale(1.02);
     -webkit-transform: scale(1.02);

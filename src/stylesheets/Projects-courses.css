@@ -1,0 +1,100 @@
+.projects-intro .primary-button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.projects-list{
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.project{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.383);
+    animation: project-animation 10s linear infinite;
+    -webkit-animation: project-animation 10s linear infinite;
+}
+
+@keyframes project-animation{
+    0%{
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+}
+    25%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+50%{
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+75%{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+100%{
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+}
+
+
+.project img{
+    height: 200px;
+    width: 100%;
+}
+
+.project-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    opacity: 0;
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition:all 0.5s ;
+
+}
+
+.project:hover> .project-content{
+    opacity:1;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    
+}
+
+.project:hover{
+    animation-play-state: paused;
+
+}
