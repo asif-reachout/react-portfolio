@@ -11,7 +11,7 @@ function Home() {
         style={{ backgroundImage: `url('./bg-intro.svg')` }}
       >
         <div>
-          <h1>Rehman</h1>
+          <h1>Asif Ali</h1>
           <div className="intro-content d-flex justify-content-between">
             <p>
               Mern Stack <br /> Developer
