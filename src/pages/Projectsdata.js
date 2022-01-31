@@ -32,7 +32,7 @@ const Projectsdata =[
     {
         title:'SHEYSHOP',
         image:'./jobs.svg',
-        description:'An ecommerce application developed using react , node , redux and mongodb',
+        description:'Reference site about Lorem Ipsum, giving information on its origins, as well',
         link:''
     },
 ];
