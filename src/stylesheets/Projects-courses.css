@@ -18,7 +18,7 @@
     -webkit-animation: project-animation 10s linear infinite;
 }
 
-.project .btn-primary {
+.project .primary-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,7 @@
 
 .project a {
     text-decoration: none;
+    color: black;
 }
 
 @keyframes project-animation {
