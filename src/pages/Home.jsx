@@ -14,7 +14,7 @@ function Home() {
           <h1>Asif Ali</h1>
           <div className="intro-content d-flex justify-content-between">
             <p>
-              Mern Stack <br /> Developer
+              Frontend<br /> Developer
             </p>
             <button className="primary-button font-bold ">Get Started</button>
           </div>
