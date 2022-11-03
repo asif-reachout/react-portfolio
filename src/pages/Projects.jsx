@@ -38,7 +38,7 @@ function Projects() {
                                     <h3>{project.title}</h3>
                                     <hr />
                                     <p>{project.description}</p>
-                                    <button className='primary-button'>Demo</button>
+                                    <a href='{project.link}' className='primary-button'>Demo</a>
                                 </div>
                             </div>
                         </div>
