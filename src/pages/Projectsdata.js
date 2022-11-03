@@ -27,7 +27,7 @@ const Projectsdata = [
         title: 'Render Health',
         image: './socialmedia.svg',
         description: 'Reference site about Lorem Ipsum, giving information on its origins, as wellhttps://www.renderhealth.com/',
-        link: ''
+        link: 'https://www.renderhealth.com/'
     },
     {
         title: 'AMS',
