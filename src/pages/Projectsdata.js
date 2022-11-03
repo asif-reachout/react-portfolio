@@ -6,6 +6,12 @@ const Projectsdata = [
         link: 'https://www.globalfansy.com/'
     },
     {
+        title: '1TimeUsed',
+        image: './socialmedia.svg',
+        description: 'Reference site about Lorem Ipsum, giving information on its origins, as well',
+        link: 'https://1timeused.com/'
+    },
+    {
         title: 'Taaply',
         image: './socialmedia.svg',
         description: 'Reference site about Lorem Ipsum, giving information on its origins, as well',
@@ -65,12 +71,7 @@ const Projectsdata = [
         description: 'Reference site about Lorem Ipsum, giving information on its origins, as well',
         link: 'https://dex.proelean.com/'
     },
-    {
-        title: '1TimeUsed',
-        image: './socialmedia.svg',
-        description: 'Reference site about Lorem Ipsum, giving information on its origins, as well',
-        link: 'https://1timeused.com/'
-    },
+
     {
         title: 'Lusso And Vinci',
         image: './socialmedia.svg',
